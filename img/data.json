@@ -1,0 +1,31 @@
+{
+  "nodes": [
+      {"id": "Juan", "group": 1},
+      {"id": "Daniel", "group": 1},
+      {"id": "Camila", "group": 1},
+      {"id": "Mario", "group": 1},
+      {"id": "Matematicas", "group": 2},
+      {"id": "Geometria", "group": 2},
+      {"id": "quimica", "group": 3},
+      {"id": "fisica", "group": 3},
+      {"id": "Historia", "group": 4},
+      {"id": "Cienciassociales", "group": 4},
+      {"id": "Lenguaje", "group": 5},
+      {"id": "Artes", "group": 6}
+      
+    ],
+  "links": [
+      {"source": "Juan", "target": "Matematicas", "value": 20},
+      {"source": "Juan", "target": "Historia", "value": 20},
+      {"source": "Juan", "target": "Lenguaje", "value": 20},
+      {"source": "Daniel", "target": "Historia", "value": 20},
+      {"source": "Daniel", "target": "Cienciassociales", "value": 20},
+      {"source": "Daniel", "target": "Fisica", "value": 20},
+      {"source": "Camila", "target": "Geometria", "value": 20},
+      {"source": "Camila", "target": "Historia", "value": 20},
+      {"source": "Camila", "target": "Matematicas", "value": 20},
+      {"source": "Mario", "target": "Geometria", "value": 20},
+      {"source": "Mario", "target": "Matematicas", "value": 20},
+      {"source": "Mario", "target": "Artes", "value": 20}
+    ]
+  }
